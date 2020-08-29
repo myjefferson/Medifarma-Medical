@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC183445-15BC-4293-8216-9C85A12A15DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Medifarma</RootNamespace>
+    <AssemblyName>Medifarma</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icoMediFarmaInicio.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcessoDB.cs" />
+    <Compile Include="AgendarConsultaMedica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgendarConsultaMedica.Designer.cs">
+      <DependentUpon>AgendarConsultaMedica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaAdministrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaAdministrador.Designer.cs">
+      <DependentUpon>AreaAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AreaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AreaCliente.Designer.cs">
+      <DependentUpon>AreaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscaPaciente - Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscaPaciente - Cliente.Designer.cs">
+      <DependentUpon>BuscaPaciente - Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarPaciente.Designer.cs">
+      <DependentUpon>BuscarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroCliente.Designer.cs">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Consulta.cs" />
+    <Compile Include="LeitorXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeitorXML.Designer.cs">
+      <DependentUpon>LeitorXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedifarmaArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedifarmaArea.Designer.cs">
+      <DependentUpon>MedifarmaArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginUsuario.Designer.cs">
+      <DependentUpon>LoginUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.Designer.cs">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrosGraficos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrosGraficos.Designer.cs">
+      <DependentUpon>RegistrosGraficos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VCPF.cs" />
+    <Compile Include="VEmail.cs" />
+    <EmbeddedResource Include="AgendarConsultaMedica.resx">
+      <DependentUpon>AgendarConsultaMedica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaAdministrador.resx">
+      <DependentUpon>AreaAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AreaCliente.resx">
+      <DependentUpon>AreaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscaPaciente - Cliente.resx">
+      <DependentUpon>BuscaPaciente - Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarPaciente.resx">
+      <DependentUpon>BuscarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroCliente.resx">
+      <DependentUpon>CadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeitorXML.resx">
+      <DependentUpon>LeitorXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedifarmaArea.resx">
+      <DependentUpon>MedifarmaArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUsuario.resx">
+      <DependentUpon>LoginUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistrosGraficos.resx">
+      <DependentUpon>RegistrosGraficos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginAdm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginUsuario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olho_f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginUsuario1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AreaCliente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginAdmFundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginUsuarioFundo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CadClienteAdmin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icoMediFarmaInicio.ico" />
+    <None Include="Resources\BuscaPaciente-Administrador.jpg" />
+    <None Include="Resources\BuscaPaciente-Cliente.jpg" />
+    <None Include="Resources\AreaCliente1.jpg" />
+    <None Include="Resources\AgendaConsulta%28Cliente%292.jpg" />
+    <None Include="Resources\AgendaConsulta%28Cliente%291.jpg" />
+    <None Include="Resources\AgendaConsulta%28Cliente%29.jpg" />
+    <None Include="Resources\MEDIFARMA-Inicio.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
