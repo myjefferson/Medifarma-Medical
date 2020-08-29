@@ -1,0 +1,53 @@
+1;Acupuntura
+2;Alergia e Imunologia
+3;Anestesiologia
+4;Angiologia
+5;Cancerologia
+6;Cardiologia
+7;Cirurgia Cardiovascular
+8;Cirurgia da Mão
+9;Cirurgia de Cabeça e Pescoço
+10;Cirurgia do Aparelho Digestivo
+11;Cirurgia Geral
+12;Cirurgia Pediátrica
+13;Cirurgia Plástica
+14;Cirurgia Torácica
+15;Cirurgia Vascular
+16;Clínica Médica
+17;Coloproctologia
+18;Dermatologia
+19;Endocrinologia e Metabologia
+20;Endoscopia
+21;Gastroenterologia
+22;Genética Médica
+23;Geriatria
+24;Ginecologia e Obstetrícia
+25;Hematologia e Hemoterapia
+26;Homeopatia
+27;Infectologia
+28;Mastologia
+29;Medicina de Família e Comunidade
+30;Medicina do Trabalho
+31;Medicina de Tráfego
+32;Medicina Esportiva
+33;Medicina Física e Reabilitação
+34;Medicina Intensiva
+35;Medicina Legal e Perícia Médica
+36;Medicina Nuclear
+37;Medicina Preventiva e Social
+38;Nefrologia
+39;Neurocirurgia
+40;Neurologia
+41;Nutrologia
+42;Oftalmologia
+43;Ortopedia e Traumatologia
+44;Otorrinolaringologia
+45;Patologia
+46;Patologia Clínica/Medicina Laboratorial
+47;Pediatria
+48;Pneumologia
+49;Psiquiatria
+50;Radiologia e Diagnóstico por Imagem
+51;Radioterapia
+52;Reumatologia
+53;Urologia
