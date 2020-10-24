@@ -34,4 +34,3 @@ projeto realizado com objetivo de provar os conhecimentos na linguagem de progra
 <p><em>Tela de agendar consulta médica</em></p>
 
 <p><em>Desenvolvedores do sistema: Jefferson Carvalho e Gustavo Koren<em></p>
-<p>Créditos especiais ao professor: Luiz que nos guiou </p>
