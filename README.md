@@ -8,7 +8,7 @@ projeto realizado com objetivo de provar os conhecimentos na linguagem de progra
 podendo ter acesso a consultas agendadas e realizar cadastro de novos pacientes.</p>
 
 <h3>Tela Inicial de Contas</h3>
-<p>A área principal apresenta dois tipos de contas: O <em>administrador</em>, que será a gerência da empresa</br>
+<p>A área principal apresenta dois tipos de contas: O <em>administrador</em>, que será usado pela gerência da empresa</br>
 e o <em>usuário</em> que será o funcionário.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t1.png">
 
