@@ -1,6 +1,6 @@
 <h1> Medifarma - Hackaton </h1>
 
-<p>O Hackaton desenvolvino no Sistema Nacional de Aprendizagem Industrial (unidade Portão - Curitiba - PR), foi um</br>
+<p>O Hackaton desenvolvido no Sistema Nacional de Aprendizagem Industrial (unidade Portão - Curitiba - PR), foi um</br>
 projeto realizado com objetivo de provar os conhecimentos na linguagem de programação C#.</p>
 
 <h3>Tela Inicial de Contas</h3>
