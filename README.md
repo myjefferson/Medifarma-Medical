@@ -3,6 +3,10 @@
 <p>O Hackaton desenvolvido no Sistema Nacional de Aprendizagem Industrial (unidade Portão - Curitiba - PR), foi um</br>
 projeto realizado com objetivo de provar os conhecimentos na linguagem de programação C#.</p>
 
+<h3>Objetivo</h3>
+<p>O projeto tem o objetivo de apresentar um sistema que ajude a gerêncar e agilizar a recepção dos clientes,</br>
+podendo ter acesso a consultas agendadas e realizar cadastro de novos pácientes.</p>
+
 <h3>Tela Inicial de Contas</h3>
 <p>A área principal apresenta dois tipos de contas: O <em>administrador</em> e o <em>usuário</em>.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t1.png">
@@ -15,7 +19,7 @@ Para testes do sistema o user é: <em><b>admin</b></em>. E a senha é: <em><b>12
 <p><em></em></p></br>
 
 <p>● O administrador tem acesso a todo o sistema e tem controle sobre a conta usuário. Aqui podemos ver que nesta conta</br>
-é possível: Buscar Paciente, Cadastrar Cliente (Usuário) e Ler um arquivo XML</p>
+é possível: Buscar Paciente, Cadastrar Usuário e Ler um arquivo XML</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t6.png">
 <p><em></em></p>
 
