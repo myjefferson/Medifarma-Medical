@@ -9,7 +9,7 @@ projeto realizado com objetivo de provar os conhecimentos na linguagem de progra
 
 <h2>O Administrador</h2>
 <p>No login do usuário, a ideia é que apenas administradores autorizados possam ter esse acesso.</br>
-Para testes do sistema o user é: <em>admin</em>. E a senha é: <em>12345</em>.</p>
+Para testes do sistema o user é: <em><b>admin</b></em>. E a senha é: <em><b>12345</b></em>.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t3.png">
 <p><em></em></p>
 
