@@ -44,3 +44,4 @@ Para testes do sistema o user é: <em><b>admin</b></em>. E a senha é: <em><b>12
 <p><em>Tela de agendar consulta médica</em></p>
 
 <p><em>Desenvolvedores do sistema: Jefferson Carvalho e Gustavo Koren<em></p>
+<p>Hackaton 2019 - SENAI - Portão - Curitiba - Paraná</p>
