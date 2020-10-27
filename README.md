@@ -43,5 +43,5 @@ Para testes do sistema o user é: <em><b>admin</b></em>. E a senha é: <em><b>12
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t9.png">
 <p><em>Tela de agendar consulta médica</em></p>
 
-<p><em>Desenvolvedores do sistema: Jefferson Carvalho e Gustavo Koren<em></p>
-<p>Hackaton 2019 - SENAI - Portão - Curitiba - Paraná</p>
+<label><em>Desenvolvedores do sistema: Jefferson Carvalho e Gustavo Koren</em></label>
+<label>Hackaton 2019 - SENAI - Portão - Curitiba - Paraná</label>
