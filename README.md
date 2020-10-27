@@ -5,7 +5,7 @@ projeto realizado com objetivo de provar os conhecimentos na linguagem de progra
 
 <h3>Objetivo</h3>
 <p>O projeto tem o objetivo de apresentar um sistema que ajude a gerêncar e agilizar a recepção dos clientes,</br>
-podendo ter acesso a consultas agendadas e realizar cadastro de novos pácientes.</p>
+podendo ter acesso a consultas agendadas e realizar cadastro de novos pacientes.</p>
 
 <h3>Tela Inicial de Contas</h3>
 <p>A área principal apresenta dois tipos de contas: O <em>administrador</em>, que será a gerência da empresa</br>
