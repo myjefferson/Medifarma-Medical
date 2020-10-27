@@ -8,12 +8,13 @@ projeto realizado com objetivo de provar os conhecimentos na linguagem de progra
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t1.png">
 
 <h2>O Administrador</h2>
-<p>No login, a ideia é que apenas pessoas autorizados pela empresa possam logar para ter acesso a área do administrador.</br>
+<p>● No login, a ideia é que apenas pessoas autorizados pela empresa possam logar para ter acesso a área do administrador.</br>
 Para testes do sistema o user é: <em><b>admin</b></em>. E a senha é: <em><b>12345</b></em>.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t3.png">
-<p><em></em></p>
+<p><em></em></p></br>
 
-<p>O administrador tem acesso a todo o sistema e tem controle sobre o usuário.</p>
+<p>● O administrador tem acesso a todo o sistema e tem controle sobre a conta usuário. Aqui podemos ver que nesta conta</br>
+é possível: Buscar Paciente, Cadastrar Cliente (Usuário) e Ler um arquivo XML</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t6.png">
 <p><em></em></p>
 
