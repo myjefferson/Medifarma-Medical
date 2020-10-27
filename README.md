@@ -3,7 +3,7 @@
 <p>O Hackaton desenvolvino no Sistema Nacional de Aprendizagem Industrial (unidade Portão - Curitiba - PR), foi um</br>
 projeto realizado com objetivo de provar os conhecimentos na linguagem de programação C#.</p>
 
-<h3>Tela Inicial de Contas</3>
+<h3>Tela Inicial de Contas</h3>
 <p>A área principal apresenta dois tipos de usuários: O <em>administrador</em> e o <em>usuário</em>.</p>
 <img src="https://raw.githubusercontent.com/myjefferson/MedifarmaMedical-Hackaton/master/Medifarma%20-%20Program/imagens/t1.png">
 <p><em>Tela inicial das contas administrador e usuário</em></p>
